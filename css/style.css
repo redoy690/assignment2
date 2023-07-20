@@ -219,10 +219,23 @@ button i{
 }
 
 .play-img{
-    width:60%;   
+    width:60%; 
+    margin-bottom: 0px; 
+    padding-bottom: 0px; 
+
 }
-.play-img img{
-    width:100%;
+.play-img-big{
+    width:85%;
+    margin-left: 15%;
+    margin-bottom: 0px;
+}
+.play-img-small{
+    height:38%;
+    width: 42%;
+    position: relative;
+    right:4%;
+    top:-27%;
+    margin-bottom: 0px;
 }
 
 .play-para h2{
