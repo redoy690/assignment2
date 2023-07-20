@@ -1,0 +1,210 @@
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        margin:0px;
+    }
+    .nav > ul{
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .nav ul li, .nav ul button{
+        margin-left: 0px;
+        margin-bottom: 15px;
+        
+    }
+    .slider{
+        flex-direction: column-reverse;
+        margin: 10px 20px;
+    }
+    .slider-para{
+        width:100%;
+    }
+    .slider-pic {
+        width:100%
+    }
+    .gamer-div{
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+     .gamer-para, .gamer-pic{
+        width: 100%;
+        text-align: center;
+     }
+     .online-games{
+        margin: 0px;
+     }
+    .online-games-card{
+        flex-direction: column;
+        padding: 5px 20px;
+    }
+    .card p{
+        text-align: center;
+    }
+    .play{
+        flex-direction: column;
+        margin:0px;
+    }
+    .play-para h2{
+        text-align: center;
+    }
+    .play-para, .play-img{
+        width:100%;
+    }
+    .play-para p{
+        text-align: center;
+    }
+    .career-div{
+        margin:10px 20px;
+    }
+    .career-div{
+        flex-direction: column;
+    }
+    .career-para{
+        width:100%;
+    }
+    .career-pic{
+        width:100%;
+        margin-top: 30px;
+    }
+    .action-games-section{
+        margin:20px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+        grid-template-rows: 50px 50px 50px ;
+        column-gap: 0px;
+    
+    }
+    .action-games h5{
+        margin:0px
+    }
+    .footer-menu ul{
+        flex-direction:column;
+        
+    }
+    .footer-menu ul li{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer-policy ul{
+        flex-direction:column;
+        
+    }
+    .footer-policy ul li{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .nav-container {
+        flex-direction: column;
+        margin:0px;
+    }
+    .nav > ul{
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .nav ul li, .nav ul button{
+        margin-left: 0px;
+        margin-bottom: 15px;
+        
+    }
+    .slider{
+        flex-direction: column-reverse;
+        margin: 10px 30px;
+    }
+    .slider-para{
+        width:100%;
+        text-align: center;
+
+    }
+    .slider-pic {
+        width:100%
+    }
+    .gamer-div{
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+     .gamer-para, .gamer-pic{
+        width: 100%;
+        text-align: center;
+     }
+     .online-games{
+        margin: 0px;
+        text-align: center;
+     }
+     .online-games-card{
+        flex-direction: column;
+        padding: 5px 20px;
+    }
+    .card p{
+        text-align: center;
+    }
+    .play{
+        flex-direction: column;
+        margin:0px;
+    }
+    .play-para h2{
+        text-align: center;
+    }
+    .play-para, .play-img{
+        width:100%;
+    }
+    .play-para p{
+        text-align: center;
+    }
+    .career-div{
+        margin:10px 20px;
+    }
+    .career-div{
+        flex-direction: column;
+    }
+    .career-para{
+        width:100%;
+    }
+    .career-pic{
+        width:100%;
+        margin-top: 30px;
+    }
+    .action-games-section{
+        margin:20px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+        grid-template-rows: 50px 50px 50px ;
+    }
+    .action-games h5{
+        margin:0px
+    }
+    .footer-menu ul{
+        flex-direction:column;
+        
+    }
+    .footer-menu ul li{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer-policy ul{
+        flex-direction:column;
+        
+    }
+    .footer-policy ul li{
+        margin-top: 10px;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .nav-container, .slider, .gamer-div, .online-games, .play, .career-div, .action-games-section, .nav-container{
+        margin:5px 20px;
+    }
+    .slider{
+        flex-direction: column-reverse;
+        margin: 10px 20px;
+    }
+    .slider-para{
+        width:100%;
+        text-align: center;
+    }
+    .slider-pic {
+        width:100%
+    }
+}
